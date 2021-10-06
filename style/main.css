@@ -102,6 +102,7 @@ main .part-services{
   width: 25%;
   text-align: center;
   padding: 10px;
+  disp
 
 }
 
@@ -124,8 +125,66 @@ main h3{
 
 /*  Small devices (phones, 576px and up) */
 
+@media only screen and (max-width: 576px) {
+  
 
+  .introduction h1{
+    padding-top: 30%;
+    font-size: 30px;
+    font-weight: 900px;
+  }
+  .introduction h5{
+    font-size: 15px;
+    
+  }
+  
 
+  main .part-services{
+    
+    width: 100%;
+  }
+  
+  header ul{
+    float:right;
+    padding-right: 0%;
+  }
+  
+  header ul li {
+    padding-top: 10%;
+    width: 100%;
+  }
+ 
+}
 
 
  /* Medium devices (tablets, 768px and up) */
+ @media only screen and (max-width: 768px) {
+  
+
+  .introduction h1{
+    padding-top: 30%;
+    font-size: 30px;
+    font-weight: 900px;
+  }
+  .introduction h5{
+    font-size: 15px;
+    
+  }
+  
+
+  main .part-services{
+    
+    width: 100%;
+  }
+  
+  header ul{
+    float:right;
+    padding-right: 0%;
+  }
+  
+  header ul li {
+    padding-top: 10%;
+    width: 100%;
+  }
+ 
+}
